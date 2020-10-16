@@ -16,5 +16,24 @@
   "bugs": {
     "url": "https://github.com/developer-do/do_blog/issues"
   },
-  "homepage": "https://github.com/developer-do/do_blog#readme"
+  "homepage": "https://github.com/developer-do/do_blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "hpp": "^0.2.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "@babel/node": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.5"
+  }
 }
