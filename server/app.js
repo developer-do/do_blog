@@ -9,6 +9,7 @@ import cors from "cors";
 // Routes
 import postRoutes from "./routes/api/posts";
 import userRoutes from "./routes/api/user";
+import authRoutes from "./routes/api/auth";
 
 const app = express();
 const { MONGO_URI } = config;
@@ -43,5 +44,6 @@ mongoose
 app.get("/");
 app.use("/api/post", postRoutes);
 app.use("/api/user", userRoutes);
+app.use("/api/auth", authRoutes);
 
 export default app;
